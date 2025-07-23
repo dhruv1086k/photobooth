@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@keyframes floatHeart {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px) rotate(10deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0) rotate(-10deg);
+    opacity: 1;
+  }
+}
+
+.heart {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+  animation: floatHeart 3s ease-in-out infinite;
+}
