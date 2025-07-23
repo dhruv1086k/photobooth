@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "bitterRose";
+  src: url("/fonts/BitterRose.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "chillax";
+  src: url("/fonts/Chillax-Medium.woff") format("woff");
+}
+
 @keyframes floatHeart {
   0% {
     transform: translateY(0) rotate(0deg);
