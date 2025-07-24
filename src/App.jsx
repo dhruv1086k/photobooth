@@ -1,5 +1,5 @@
 import React from "react";
-import Photobooth from "./components/photobooth";
+import Photobooth from "./components/Photobooth";
 
 const App = () => {
   return (
